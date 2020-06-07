@@ -1,6 +1,6 @@
 /* Style Css */
 :root {
-    --primary-color: #4a515c;
+    --primary-color: #154360;
     --secondary-color: #bff1f2;
     --tertiary-color: ;
 }
@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .boxed {
@@ -62,12 +62,71 @@ header nav ul li a {
 /* Hero Style Start */
 .hero {
     background-image: url("../images/temp-hero.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: ;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-start;
     
 }
 
 .hero h2 {
-    
+    font-weight: 500;
 }
 /* Hero Style End */
+
+/* Generic Style Start */
+.section-title {
+    font-size: 30px;
+    border-right: 3px solid;
+    padding-bottom: 10px;
+    text-align: top;
+    margin: 5px auto 25px 80px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    
+}
+/* Generic Style End */
+
+/* About Me Style Start */
+.about {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+div p {
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 5px auto 5px 50px;
+    line-height: 1.5;
+
+    }
+/* About Me Style End */
+
+/* Work Style Start */
+.work {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+/* Work Style End */
+
+/* Contact Me Style Start */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.contact-info {
+    margin: 5px auto 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* Contact Me Style End */
