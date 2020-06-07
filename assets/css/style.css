@@ -1,1 +1,73 @@
 /* Style Css */
+:root {
+    --primary-color: #4a515c;
+    --secondary-color: #bff1f2;
+    --tertiary-color: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Style Start */
+header {
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 10px 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+.boxed {
+    background-color: var(--secondary-color);
+    padding: 5px 20px;
+    
+}
+
+header a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+/* Header Style End */
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/temp-hero.png");
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.hero h2 {
+    
+}
+/* Hero Style End */
