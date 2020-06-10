@@ -56,6 +56,30 @@ header nav ul {
 header nav ul li a {
     color: var(--secondary-color);
     text-decoration: underline;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+}
+
+.about-me-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 10px;
+}
+.work-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 10px;
+}
+.contact-me-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.resume-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 10px;
 }
 /* Header Style End */
 
@@ -81,22 +105,26 @@ header nav ul li a {
 
 .section-title {
     font-size: 30px;
-    border-right: 3px solid;
-    padding-bottom: 10px;
+    
     text-align: top;
-    margin: 5px auto 25px 80px;
+    margin: 10px 5px 25px 25px;
     width: 50%;
     height: auto;
     display: flex;
-    
 }
+
 /* Generic Style End */
 
 /* About Me Style Start */
+.about-me {
+    display: flex;
+}
+
 .about {
     display: flex;
     justify-content: space-between;
     text-align: right;
+    padding: 10px;
 }
 
 div p {
@@ -104,8 +132,10 @@ div p {
     text-align: left;
     margin: 5px auto 5px 50px;
     line-height: 1.5;
-
-    }
+    display: flex;
+    border-left: 3px solid;
+    padding-left: 40px;
+}
 /* About Me Style End */
 
 /* Work Style Start */
@@ -119,6 +149,8 @@ div p {
     display: flex;
     width: 100%;
     justify-content: center;
+    border-left: 3px solid;
+    padding-left: 40px;
 }
 
 .work-grid-container {
@@ -146,12 +178,25 @@ div p {
     display: flex;
     justify-content: space-between;
     text-align: right;
+    
 }
 
 .contact-info {
-    margin: 5px auto 25px 80px;
+    margin: 5px auto 15px auto;
     display: flex;
     justify-content: space-between;
-    
+    padding: 0 50px;
+    border-left: 3px solid;
+    padding-left: 40px;
+}
+
+.contact-me {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 10px;
 }
 /* Contact Me Style End */
+
+/* separate padding and borders by adding class to each individual element
+/* border-bottom, padding, and text-decoration selectors
+*/
