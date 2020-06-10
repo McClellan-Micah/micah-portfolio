@@ -61,16 +61,12 @@ header nav ul li a {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/temp-hero.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: ;
+    background-image: url("../images/portfolio-hero.webp");
+    background-size: auto 500px;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: flex-start;
-    
 }
 
 .hero h2 {
@@ -79,6 +75,10 @@ header nav ul li a {
 /* Hero Style End */
 
 /* Generic Style Start */
+ section {
+    padding: 100px;
+}
+
 .section-title {
     font-size: 30px;
     border-right: 3px solid;
@@ -114,6 +114,31 @@ div p {
     justify-content: space-between;
     text-align: right;
 }
+
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.work-grid-container {
+    background: var(--secondary-color);
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 4fr);
+    grid-template-rows: repeat(5, 1fr) 2fr;
+    font-size: 1.2rem;
+}
+
+.work-grid-item {
+    padding: 15px;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Work Style End */
 
 /* Contact Me Style Start */
