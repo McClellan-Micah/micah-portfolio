@@ -111,6 +111,7 @@ header nav ul li a {
     width: 50%;
     height: auto;
     display: flex;
+    
 }
 
 /* Generic Style End */
@@ -134,7 +135,8 @@ div p {
     line-height: 1.5;
     display: flex;
     border-left: 3px solid;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 /* About Me Style End */
 
@@ -150,15 +152,15 @@ div p {
     width: 100%;
     justify-content: center;
     border-left: 3px solid;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 .work-grid-container {
     background: var(--secondary-color);
     width: 80%;
     display: grid;
-    grid-template-columns: 1fr repeat(2, 4fr);
-    grid-template-rows: repeat(5, 1fr) 2fr;
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: repeat(3, 1fr);
     font-size: 1.2rem;
 }
 
@@ -171,6 +173,18 @@ div p {
     text-align: center;
 }
 
+.work-grid-item.side {
+    grid-column: 3 / span 2;
+}
+
+.work-grid-item.bottom {
+    grid-row: 3 / span 2
+}
+
+.work-grid-item.surf {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
 /* Work Style End */
 
 /* Contact Me Style Start */
