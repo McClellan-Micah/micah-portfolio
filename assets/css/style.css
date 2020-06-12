@@ -133,14 +133,12 @@ header nav ul li a {
 }
 
 div p {
-    padding-bottom: 20px;
     text-align: left;
     margin: 5px auto 5px 50px;
     line-height: 1.5;
     display: flex;
     border-left: 3px solid;
-    padding-left: 30px;
-    padding-right: 40px;
+    padding: 0 40px 20px 30px;
 }
 /* About Me Style End */
 
@@ -149,6 +147,8 @@ div p {
     display: flex;
     justify-content: space-between;
     text-align: right;
+    width: 1400px;
+    height: 600px;
 }
 
 .work-grid-wrapper {
@@ -157,6 +157,8 @@ div p {
     justify-content: center;
     border-left: 3px solid;
     padding-left: 10px;
+    margin: 5px auto 5px 50px;
+    
 }
 
 .work-grid-container {
@@ -175,6 +177,17 @@ div p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-weight: bold;
+}
+
+.work-grid-item h4 {
+    text-align: top;
+}
+
+.work-grid-item h4 {
+    font-weight: lighter;
+    font-size: 16px;
+    
 }
 
 .work-grid-item.side {
@@ -194,27 +207,46 @@ div p {
 /* Contact Me Style Start */
 .contact {
     display: flex;
-    justify-content: space-between;
     text-align: right;
     
 }
 
 .contact-info {
-    margin: 5px auto 15px auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
+    margin: 10px;
+    padding: 0 40px 20px 30px;
     border-left: 3px solid;
-    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.contact-me {
+.phone-link {
     border-bottom: 3px solid;
     text-decoration: none;
-    padding: 10px;
+    padding: 1.5em;
+}
+
+.email-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 1.5em;
+}
+
+.github-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 1.5em;
+}
+
+.twitter-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 1.5em;
+}
+
+.spotify-link {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    padding: 1.5em;
 }
 /* Contact Me Style End */
-
-/* separate padding and borders by adding class to each individual element
-/* border-bottom, padding, and text-decoration selectors
-*/
