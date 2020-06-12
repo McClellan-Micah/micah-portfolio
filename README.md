@@ -2,10 +2,10 @@
 
 ## Micah-Portfolio
 
-This project is ....
+This project is a combination of HTML/CSS to create a portfolio.
 
 Link to the deployed application:
-[Let's Generate a Page!] (**insert link**)
+[Click!] (https://mcclellan-micah.github.io/micah-portfolio/)
 
 Screenshot of deployed applicaiton:
-![Lernantino Screenshot](******insert link*****)
+![Portfolio-Micah Screenshot](assets/images/portfolio-screenshot.png)
