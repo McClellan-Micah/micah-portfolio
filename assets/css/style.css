@@ -340,27 +340,65 @@ div p {
 
 /* Media Query for Mobile Phones and Smaller */
 @media screen and (max-width: 575px) {
+    body {
+        font-size: 15px;
+    }
+
+    .about-me-link {
+        font-size: 15px;
+    }
+
+    .work-link {
+        font-size: 15px;
+    }
+
+    .contact-me-link {
+        font-size: 15px;
+    }
+
+    .resume-link {
+        font-size: 15px;
+    }
+
     .section-title {
-        width: 95%;
+        margin: 0;
+        font-size: 20px;
     }
 
-    .div p {
-        width: 100%;
-    }
-
-    .trainer {
-        flex: 0 100%;
-    }
-
-    .contact-info {
+    .hero-text {
         text-align: center;
     }
 
-    .contact-info > * {
-        flex: 0 100%;
+    div p {
+        margin: 5px;
+    }
+    .work-grid-wrapper {
+        margin: 5px;
     }
 
-    .contact-form {
-        order: 3;
+    .contact-info {
+        margin: 5px;
+        padding: 5px;
+        justify-content: space-evenly;
+    }
+
+    .phone-link {
+        padding: 1em;
+    }
+
+    .email-link {
+        padding: 1em;
+    }
+
+    .github-link {
+        padding: 1em;
+    }
+
+    .twitter-link {
+        padding: 1em;
+    } 
+
+    .spotify-link {
+        padding: 1em;
     }
 }
