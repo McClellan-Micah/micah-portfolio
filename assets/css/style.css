@@ -33,11 +33,17 @@ header h1 {
     font-weight: 500;
 }
 
-.boxed {
+.nametag {
     background-color: var(--secondary-color);
-    padding: 5px 20px;
-    
+    padding: 5px 20px 5px 40px;
 }
+
+.hero-text {
+    background-color: var(--secondary-color);
+    padding: 5px 10px 5px 10px;
+}
+
+
 
 header a {
     color: var(--primary-color);
@@ -50,6 +56,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin: 10px;
     
 }
 
@@ -86,7 +93,7 @@ header nav ul li a {
 /* Hero Style Start */
 .hero {
     background-image: url("../images/portfolio-hero.webp");
-    background-size: auto 500px;
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -105,13 +112,10 @@ header nav ul li a {
 
 .section-title {
     font-size: 30px;
-    
-    text-align: top;
     margin: 10px 5px 25px 25px;
     width: 50%;
     height: auto;
     display: flex;
-    
 }
 
 /* Generic Style End */
