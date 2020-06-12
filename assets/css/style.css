@@ -23,7 +23,6 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 80%;
     padding: 10px 45px;
     display: flex;
     justify-content: space-between;
@@ -195,7 +194,7 @@ div p {
     margin: 5px;
 }
 
-.work-grid-item.surf {
+.work-grid-item.run-buddy {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     margin: 5px;
@@ -205,8 +204,8 @@ div p {
     text-decoration: none;
 }
 
-.work-grid-item.surf {
-    background-image: url("../images/surf-report.webp");
+.work-grid-item.run-buddy {
+    background-image: url("../images/run-buddy.png");
     background-size: cover;
 }
 
@@ -224,10 +223,9 @@ div p {
     background-size: cover;
 }
 
-.work-grid-item.bottom.run-buddy {
-    background-image: url("../images/run-buddy.png");
+.work-grid-item.bottom.surf {
+    background-image: url("../images/surf-report.webp");
     background-size: cover;
-    background-position: left top;
 }
 
 /* Work Style End */
@@ -277,3 +275,86 @@ div p {
     padding: 1.5em;
 }
 /* Contact Me Style End */
+
+
+/* Media Queries */
+/* Media Query for Smaller Desktop Screens and Smaller */
+@media screen and (max-width: 980px) {
+    .hero {
+        width: 100%;
+    }
+
+/* Media Query for Tablets and Smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .step h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .step-info {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .step-img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .step-text {
+        flex: 100%;
+    }
+
+    .work-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .work-grid-item.run-buddy {
+        grid-column: 1;
+    }
+
+    .work-grid-item.side {
+        grid-column: 1 / -1;
+    }
+
+    .work-grid-item.bototm {
+        transform: none;
+        writing-mode: unset;
+        grid-column: 1 / -1;
+        grid-row: -1;
+    }
+}
+
+/* Media Query for Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+    .section-title {
+        width: 95%;
+    }
+
+    .div p {
+        width: 100%;
+    }
+
+    .trainer {
+        flex: 0 100%;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info > * {
+        flex: 0 100%;
+    }
+
+    .contact-form {
+        order: 3;
+    }
+}
