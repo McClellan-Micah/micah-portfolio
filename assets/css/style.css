@@ -281,7 +281,7 @@ div p {
 /* Media Query for Smaller Desktop Screens and Smaller */
 @media screen and (max-width: 980px) {
     .hero {
-        width: 100%;
+        width: %;
     }
 
 /* Media Query for Tablets and Smaller */
