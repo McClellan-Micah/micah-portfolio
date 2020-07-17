@@ -209,6 +209,7 @@ div p {
 
 .work-grid-item.side.LED-wall {
   background-image: url("../images/run-buddy.png");
+  background-size: cover;
 }
 
 .work-grid-item.side.calculator {
