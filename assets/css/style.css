@@ -203,16 +203,16 @@ div p {
 }
 
 .work-grid-item.run-buddy {
-  background-image: url("../images/run-buddy.png");
+  background-image: url("../images/TicketDiscovery.png");
   background-size: cover;
 }
 
 .work-grid-item.side.LED-wall {
-  background-image: url("../images/LED-wall.jpg");
+  background-image: url("../images/run-buddy.png");
 }
 
 .work-grid-item.side.calculator {
-  background-image: url("../images/calculator.webp");
+  background-image: url("../images/Workday-Scheduler.png");
   background-size: cover;
 }
 
@@ -222,7 +222,7 @@ div p {
 }
 
 .work-grid-item.bottom.surf {
-  background-image: url("../images/surf-report.webp");
+  background-image: url("../images/CodeQuiz.png");
   background-size: cover;
 }
 
