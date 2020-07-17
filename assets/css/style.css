@@ -113,7 +113,7 @@ section {
 .section-title {
   font-size: 30px;
   margin: 10px 5px 25px 25px;
-  width: 50%;
+  padding: 25px;
   height: auto;
   display: flex;
 }
@@ -128,7 +128,6 @@ section {
 
 div p {
   text-align: left;
-  margin: 5px auto 5px 50px;
   line-height: 1.5;
   border-left: 3px solid;
   padding: 0 40px 20px 30px;
@@ -139,7 +138,6 @@ div p {
 .work {
   display: flex;
   justify-content: space-between;
-  text-align: right;
   width: 1400px;
   height: 600px;
 }
@@ -149,12 +147,13 @@ div p {
 
 .work-grid-container {
   background: var(--tertiary-color);
-  width: 80%;
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(3, 4fr);
   grid-template-rows: repeat(3, 1fr);
   font-size: 1.2rem;
   border-left: 3px solid;
+  padding: 0 40px 20px 30px;
 }
 
 .grid-text {
@@ -172,11 +171,6 @@ div p {
   font-weight: bold;
 }
 
-.work-grid-item h4 {
-  font-weight: lighter;
-  font-size: 16px;
-}
-
 .work-grid-item.side {
   grid-column: 3 / span 2;
   margin: 5px;
@@ -191,10 +185,6 @@ div p {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
   margin: 5px;
-}
-
-.work-grid-item.bottom a {
-  text-decoration: none;
 }
 
 .work-grid-item.project-1 {
