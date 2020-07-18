@@ -278,7 +278,7 @@ div p {
       grid-template-columns: 1fr 1fr;
     }
 
-    .work-grid-item.run-buddy {
+    .work-grid-item.project-1 {
       grid-column: 1 / -1;
     }
 
@@ -291,7 +291,7 @@ div p {
       grid-row: 3;
     }
 
-    .contact-info {
+    .contact {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
@@ -332,33 +332,17 @@ div p {
     div p {
       margin: 5px;
     }
-    .work-grid-wrapper {
+    .work-grid-container {
       margin: 5px;
     }
 
-    .contact-info {
+    .contact {
       margin: 5px;
       padding: 5px;
       justify-content: space-evenly;
     }
 
-    .phone-link {
-      padding: 1em;
-    }
-
-    .email-link {
-      padding: 1em;
-    }
-
-    .github-link {
-      padding: 1em;
-    }
-
-    .linkedin-link {
-      padding: 1em;
-    }
-
-    .spotify-link {
+    .contact address {
       padding: 1em;
     }
   }
