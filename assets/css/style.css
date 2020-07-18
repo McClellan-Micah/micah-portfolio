@@ -126,11 +126,22 @@ section {
   text-align: right;
 }
 
+.headshot {
+  background-image: url("../images/headshot-recent.JPG");
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--color1);
+  border-radius: 5px;
+  margin: 10px;
+}
+
 div p {
   text-align: left;
   line-height: 1.5;
-  border-left: 3px solid;
-  padding: 0 40px 20px 30px;
+  margin: 25px;
+  width: 90%;
 }
 /* About Me Style End */
 
