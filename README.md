@@ -6,8 +6,10 @@ This project is a combination of HTML/CSS to create a portfolio. Each section ha
 
 I put a lot of work into getting this website to where it is. I hope that as I continue to learn and get feedback, that I will be able to vastly improve the content and styling of this portfolio.
 
-Link to the deployed application:
-[Click!] (https://mcclellan-micah.github.io/micah-portfolio/)
+## Link to the deployed application:
 
-Screenshot of deployed applicaiton:
+[Click!](https://mcclellan-micah.github.io/micah-portfolio/)
+
+## Screenshot of deployed applicaiton:
+
 ![Portfolio-Micah Screenshot](assets/images/portfolio-screenshot.png)
