@@ -8,8 +8,8 @@ I put a lot of work into getting this website to where it is. I hope that as I c
 
 ## Link to the deployed application:
 
-[Click!](https://mcclellan-micah.github.io/micah-portfolio/)
+[My Portfolio](https://mcclellan-micah.github.io/micah-portfolio/)
 
 ## Screenshot of deployed applicaiton:
 
-![Portfolio-Micah Screenshot](assets/images/Portfolio.png)
+![Portfolio-Micah Screenshot](../images/Portfolio.png)
