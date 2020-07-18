@@ -12,4 +12,4 @@ I put a lot of work into getting this website to where it is. I hope that as I c
 
 ## Screenshot of deployed applicaiton:
 
-![Portfolio-Micah Screenshot](../images/Portfolio.png)
+![Portfolio-Micah Screenshot](assets/images/Portfolio.png)
