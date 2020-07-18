@@ -143,9 +143,6 @@ div p {
   height: 600px;
 }
 
-#page-section h2 {
-}
-
 .work-grid-container {
   background: var(--tertiary-color);
   display: grid;
