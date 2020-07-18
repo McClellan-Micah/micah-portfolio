@@ -37,6 +37,7 @@ header h1 {
 .nametag {
   background-color: var(--secondary-color);
   padding: 5px 20px 5px 40px;
+  border-radius: 5px;
 }
 
 header a {
@@ -101,13 +102,13 @@ header nav ul li a {
 .hero-text {
   background-color: var(--secondary-color);
   padding: 5px 10px 5px 10px;
+  border-radius: 5px;
 }
 /* Hero Style End */
 
 /* Generic Style Start */
 section {
   padding-top: 20px;
-  padding-left: 20px;
   padding-bottom: 20px;
 }
 
@@ -115,8 +116,6 @@ section {
   font-size: 30px;
   margin: 10px 5px 25px 25px;
   padding: 25px;
-  height: auto;
-  display: flex;
 }
 
 /* Generic Style End */
@@ -141,6 +140,7 @@ div p {
   justify-content: space-between;
   width: 1400px;
   height: 600px;
+  text-align: right;
 }
 
 .work-grid-container {
@@ -214,12 +214,18 @@ div p {
 /* Work Style End */
 
 /* Contact Me Style Start */
+.contact {
+  display: flex;
+  text-align: right;
+}
+
 .contact address {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   height: 100%;
+  border-left: 3px solid;
+  padding: 0 40px 20px 30px;
 }
 
 .contact address a {
