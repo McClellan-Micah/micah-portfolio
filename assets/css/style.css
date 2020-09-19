@@ -86,7 +86,7 @@ header nav ul li a {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/portfolio-hero.webp");
+  background-image: url('../images/portfolio-hero.webp');
   background-size: cover;
   display: flex;
   justify-content: flex-end;
@@ -127,7 +127,7 @@ section {
 }
 
 .headshot {
-  background-image: url("../images/headshot-recent.JPG");
+  background-image: url('../images/headshot-recent.JPG');
   width: 40%;
   background-size: cover;
   background-position: center;
@@ -198,27 +198,27 @@ div p {
 }
 
 .work-grid-item.project-1 {
-  background-image: url("../images/TicketDiscovery.png");
+  background-image: url('../images/TicketDiscovery.png');
   background-size: cover;
 }
 
 .work-grid-item.side.project-2 {
-  background-image: url("../images/run-buddy.png");
+  background-image: url('../images/run-buddy.png');
   background-size: cover;
 }
 
 .work-grid-item.side.project-3 {
-  background-image: url("../images/Workday-Scheduler.png");
+  background-image: url('../images/Workday-Scheduler.png');
   background-size: cover;
 }
 
 .work-grid-item.bottom.project-4 {
-  background-image: url("../images/horiseon.png");
+  background-image: url('../images/Weed\ It\ &\ Reap.png');
   background-size: cover;
 }
 
 .work-grid-item.bottom.project-5 {
-  background-image: url("../images/CodeQuiz.png");
+  background-image: url('../images/CodeQuiz.png');
   background-size: cover;
 }
 
