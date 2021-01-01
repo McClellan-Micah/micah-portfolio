@@ -8,14 +8,13 @@
 
 body {
   color: var(--primary-color);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: monospace;
   background-color: var(--tertiary-color);
 }
 
 /* Header Style Start */
 header {
   background-color: var(--primary-color);
-  padding: 2px 45px;
 }
 
 header h1 {
@@ -27,17 +26,15 @@ header h1 {
 
 nav {
   color: var(--secondary-color);
+  padding: 10px;
 }
 
 /* Hero Style Start */
 .hero {
-  background-image: url(../images/headshot-recent.JPG);
-  background-size: block;
-  display: flex;
-
-  flex-wrap: wrap;
-
-  padding: 60px;
+  background-image: url(../images/headshot.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px;
 }
 
 /* Hero Style End */
@@ -45,24 +42,30 @@ nav {
 /* Contact Me Style Start */
 .contact {
   display: flex;
-  text-align: right;
 }
 
 .contact address a {
-  margin: 10px;
-  padding: 5px;
-  border-bottom: 3px solid;
   text-decoration: none;
+}
+
+address {
+  display: flex;
 }
 
 /* Contact Me Style End */
 
 /* Generic Style Start */
+.button {
+  padding: 15px 15px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid salmon;
+}
 
-.section-title {
-  font-size: 30px;
-  margin: 10px 5px 25px 25px;
-  padding: 25px;
+.button:hover {
+  background-color: salmon;
 }
 
 /* Generic Style End */
@@ -72,88 +75,65 @@ nav {
   display: flex;
   text-align: right;
 }
-
-div p {
-  text-align: left;
-  line-height: 1.5;
-  border-left: 3px solid;
-  padding: 0 40px 20px 30px;
+.brand {
+  font-size: 20px;
 }
 /* About Me Style End */
 
 /* Work Grid Style Start */
+.section-title {
+  font-size: 30px;
+}
+
 .work {
   display: flex;
-  justify-content: space-between;
-  width: 1400px;
-  height: 600px;
+  flex-wrap: wrap;
+  width: 800px;
   text-align: right;
 }
 
 .work-grid-container {
   background: var(--tertiary-color);
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(3, 4fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
   font-size: 1.2rem;
-  border-left: 3px solid;
-  padding: 0 40px 20px 30px;
 }
 
 .grid-text {
-  background-color: var(--secondary-color);
   padding: 5px 10px 5px 10px;
-  border-radius: 5px;
 }
 
 .work-grid-item {
-  padding: 15px;
-  border: 4px solid var(--secondary-color);
+  padding: 25px;
+  border: 4px solid var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
-}
-
-.work-grid-item.side {
-  grid-column: 3 / span 2;
   margin: 5px;
+  border-radius: 50px;
 }
 
-.work-grid-item.bottom {
-  grid-row: 3 / span 2;
-  margin: 5px;
-}
-
-.work-grid-item.project-1 {
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 2;
-  margin: 5px;
-}
-
-.work-grid-item.project-1 {
+.work-grid-item.project-1:hover {
   background-image: url('../images/TicketDiscovery.png');
   background-size: cover;
 }
 
-.work-grid-item.side.project-2 {
+.work-grid-item.side.project-2:hover {
   background-image: url('../images/run-buddy.png');
   background-size: cover;
 }
 
-.work-grid-item.side.project-3 {
+.work-grid-item.side.project-3:hover {
   background-image: url('../images/Workday-Scheduler.png');
   background-size: cover;
 }
 
-.work-grid-item.bottom.project-4 {
+.work-grid-item.bottom.project-4:hover {
   background-image: url('../images/horiseon.png');
   background-size: cover;
 }
 
-.work-grid-item.bottom.project-5 {
+.work-grid-item.bottom.project-5:hover {
   background-image: url('../images/CodeQuiz.png');
   background-size: cover;
 }
