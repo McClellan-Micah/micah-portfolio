@@ -6,12 +6,6 @@
   --quatro-color: #e9c46a;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   color: var(--primary-color);
   font-family: Helvetica, Arial, sans-serif;
@@ -21,45 +15,19 @@ body {
 /* Header Style Start */
 header {
   background-color: var(--primary-color);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 10px 45px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 2px 45px;
 }
 
 header h1 {
   font-weight: 500;
+  color: var(--secondary-color);
 }
 
-header a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
+/* Header Style End */
 
 nav {
   color: var(--secondary-color);
 }
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  margin: 10px;
-}
-
-header nav ul li a {
-  color: var(--secondary-color);
-  text-decoration: underline;
-  padding: 10px;
-  margin: 10px 5px 10px 5px;
-}
-
-/* Header Style End */
 
 /* Hero Style Start */
 .hero {
@@ -72,23 +40,24 @@ header nav ul li a {
   padding: 60px;
 }
 
-.hero h2 {
-  font-weight: 500;
-}
-
-.hero-text {
-  background-color: var(--primary-color);
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-  color: var(--secondary-color);
-}
 /* Hero Style End */
 
-/* Generic Style Start */
-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* Contact Me Style Start */
+.contact {
+  display: flex;
+  text-align: right;
 }
+
+.contact address a {
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 3px solid;
+  text-decoration: none;
+}
+
+/* Contact Me Style End */
+
+/* Generic Style Start */
 
 .section-title {
   font-size: 30px;
@@ -190,29 +159,5 @@ div p {
 }
 
 /* Work Style End */
-
-/* Contact Me Style Start */
-.contact {
-  display: flex;
-  text-align: right;
-}
-
-.contact address {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100%;
-  border-left: 3px solid;
-  padding: 0 40px 20px 30px;
-}
-
-.contact address a {
-  margin: 10px;
-  padding: 5px;
-  border-bottom: 3px solid;
-  text-decoration: none;
-}
-
-/* Contact Me Style End */
 
 /* Media Queries */
