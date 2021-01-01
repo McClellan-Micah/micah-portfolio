@@ -1,6 +1,6 @@
 /* Style Css */
 :root {
-  --primary-color: #264651;
+  --primary-color: salmon;
   --secondary-color: #2a9d8f;
   --tertiary-color: #f5f5f5;
   --quatro-color: #e9c46a;
@@ -34,15 +34,13 @@ header h1 {
   font-weight: 500;
 }
 
-.nametag {
-  background-color: var(--secondary-color);
-  padding: 5px 20px 5px 40px;
-  border-radius: 5px;
-}
-
 header a {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+nav {
+  color: var(--secondary-color);
 }
 
 header nav ul {
@@ -61,38 +59,17 @@ header nav ul li a {
   margin: 10px 5px 10px 5px;
 }
 
-.about-me-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
-.work-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
-.contact-me-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.resume-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
 /* Header Style End */
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/portfolio-hero.webp");
-  background-size: cover;
+  background-image: url(../images/headshot-recent.JPG);
+  background-size: block;
   display: flex;
-  justify-content: flex-end;
+
   flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 120px;
+
+  padding: 60px;
 }
 
 .hero h2 {
@@ -100,9 +77,10 @@ header nav ul li a {
 }
 
 .hero-text {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
+  color: var(--secondary-color);
 }
 /* Hero Style End */
 
@@ -187,27 +165,27 @@ div p {
 }
 
 .work-grid-item.project-1 {
-  background-image: url("../images/TicketDiscovery.png");
+  background-image: url('../images/TicketDiscovery.png');
   background-size: cover;
 }
 
 .work-grid-item.side.project-2 {
-  background-image: url("../images/run-buddy.png");
+  background-image: url('../images/run-buddy.png');
   background-size: cover;
 }
 
 .work-grid-item.side.project-3 {
-  background-image: url("../images/Workday-Scheduler.png");
+  background-image: url('../images/Workday-Scheduler.png');
   background-size: cover;
 }
 
 .work-grid-item.bottom.project-4 {
-  background-image: url("../images/horiseon.png");
+  background-image: url('../images/horiseon.png');
   background-size: cover;
 }
 
 .work-grid-item.bottom.project-5 {
-  background-image: url("../images/CodeQuiz.png");
+  background-image: url('../images/CodeQuiz.png');
   background-size: cover;
 }
 
@@ -238,112 +216,3 @@ div p {
 /* Contact Me Style End */
 
 /* Media Queries */
-/* Media Query for Smaller Desktop Screens and Smaller */
-@media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  .work {
-    width: 100%;
-  }
-
-  .work-grid-item.side.calculator {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /* Media Query for Tablets and Smaller */
-  @media screen and (max-width: 768px) {
-    .work-grid-container {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .work-grid-item.project-1 {
-      grid-column: 1 / -1;
-    }
-
-    .work-grid-item.side {
-      grid-column: -2;
-    }
-
-    .work-grid-item.bottom {
-      grid-column: 1;
-      grid-row: 3;
-    }
-
-    .contact {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-
-  /* Media Query for Mobile Phones and Smaller */
-  @media screen and (max-width: 575px) {
-    body {
-      font-size: 15px;
-    }
-
-    .about-me-link {
-      font-size: 15px;
-    }
-
-    .work-link {
-      font-size: 15px;
-    }
-
-    .contact-me-link {
-      font-size: 15px;
-    }
-
-    .resume-link {
-      font-size: 15px;
-    }
-
-    .section-title {
-      margin: 0;
-      font-size: 20px;
-    }
-
-    .hero-text {
-      text-align: center;
-    }
-
-    div p {
-      margin: 5px;
-    }
-    .work-grid-container {
-      margin: 5px;
-    }
-
-    .contact {
-      margin: 5px;
-      padding: 5px;
-      justify-content: space-evenly;
-    }
-
-    .contact address {
-      padding: 1em;
-    }
-  }
-}
