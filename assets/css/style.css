@@ -129,7 +129,7 @@ address {
 }
 
 .work-grid-item.bottom.project-4:hover {
-  background-image: url('../images/horiseon.png');
+  background-image: url('../images/Weed\ It\ &\ Reap.png');
   background-size: cover;
 }
 
@@ -137,6 +137,12 @@ address {
   background-image: url('../images/CodeQuiz.png');
   background-size: cover;
   background-position: center;
+}
+
+.work-grid-item.bottom.project-6:hover {
+  background-image: url('../images/pet-hotel.png');
+  background-size: cover;
+  background-position: right;
 }
 /* Work Style End */
 
