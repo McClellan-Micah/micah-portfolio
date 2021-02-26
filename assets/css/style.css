@@ -1,130 +1,87 @@
 /* Style Css */
 :root {
-  --primary-color: #264651;
-  --secondary-color: #2a9d8f;
-  --tertiary-color: #f5f5f5;
+  --primary-color: salmon;
+  --secondary-color: #f5f5f5;
+  --name-color: #f5f5f5;
   --quatro-color: #e9c46a;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   color: var(--primary-color);
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: var(--tertiary-color);
+  font-family: 'verdana';
+  background-color: var(--name-color);
 }
 
 /* Header Style Start */
 header {
   background-color: var(--primary-color);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 10px 45px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 header h1 {
   font-weight: 500;
-}
-
-.nametag {
-  background-color: var(--secondary-color);
-  padding: 5px 20px 5px 40px;
-  border-radius: 5px;
-}
-
-header a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  margin: 10px;
-}
-
-header nav ul li a {
   color: var(--secondary-color);
-  text-decoration: underline;
-  padding: 10px;
-  margin: 10px 5px 10px 5px;
-}
-
-.about-me-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
-.work-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
-.contact-me-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.resume-link {
-  border-bottom: 3px solid;
-  text-decoration: none;
-  padding: 10px;
+  margin: 5px 10px 20px;
 }
 /* Header Style End */
 
 /* Hero Style Start */
 .hero {
-  background-image: url('../images/portfolio-hero.webp');
-  background-size: cover;
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  background-image: url(../images/headshot.JPG);
+  width: 125px;
+  height: 80px;
+  background-position: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  margin: auto;
   padding: 120px;
 }
 
-.hero h2 {
-  font-weight: 500;
-}
-
-.hero-text {
-  background-color: var(--secondary-color);
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-}
 /* Hero Style End */
 
-/* Generic Style Start */
-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* Contact Me Style Start */
+
+.contact address a {
+  text-decoration: none;
+  margin: 0px 5px;
 }
 
-.section-title {
-  font-size: 30px;
-  margin: 10px 5px 25px 25px;
-  padding: 25px;
+<<<<<<< HEAD
+/* Hero Style Start */
+.hero {
+  background-image: url('../images/portfolio-hero.webp');
+  background-size: cover;
+=======
+address {
+>>>>>>> develop
+  display: flex;
+  justify-content: center;
+  font-family: 'papyrus';
+}
+
+/* Contact Me Style End */
+
+/* Generic Style Start */
+.button {
+  padding: 15px 15px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid salmon;
+}
+
+.button:hover {
+  background-color: salmon;
 }
 
 /* Generic Style End */
 
 /* About Me Style Start */
 .about {
-  display: flex;
-  text-align: right;
+  text-align: center;
 }
+<<<<<<< HEAD
 
 .headshot {
   background-image: url('../images/headshot-recent.JPG');
@@ -142,61 +99,52 @@ div p {
   line-height: 1.5;
   margin: 25px;
   width: 90%;
+=======
+.brand {
+  font-size: 20px;
+>>>>>>> develop
 }
 /* About Me Style End */
 
 /* Work Grid Style Start */
+.section-title {
+  font-size: 30px;
+}
+
 .work {
-  display: flex;
-  justify-content: space-between;
-  width: 1400px;
-  height: 600px;
+  width: 800px;
   text-align: right;
 }
 
 .work-grid-container {
-  background: var(--tertiary-color);
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(3, 4fr);
-  grid-template-rows: repeat(3, 1fr);
+  background: var(--name-color);
+  display: flex;
   font-size: 1.2rem;
-  border-left: 3px solid;
-  padding: 0 40px 20px 30px;
 }
 
 .grid-text {
-  background-color: var(--secondary-color);
   padding: 5px 10px 5px 10px;
-  border-radius: 5px;
+  font-family: 'papyrus';
 }
 
 .work-grid-item {
-  padding: 15px;
-  border: 4px solid var(--secondary-color);
+  padding: 25px;
+  border: 4px solid var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
-}
-
-.work-grid-item.side {
-  grid-column: 3 / span 2;
   margin: 5px;
+  border-radius: 50px;
 }
 
-.work-grid-item.bottom {
-  grid-row: 3 / span 2;
-  margin: 5px;
+.work-grid-item.project-1:hover {
+  background-image: url('../images/TicketDiscovery.png');
+  background-size: cover;
+  background-position: center;
 }
 
-.work-grid-item.project-1 {
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 2;
-  margin: 5px;
-}
-
+<<<<<<< HEAD
 .work-grid-item.project-1 {
   background-image: url('../images/TicketDiscovery.png');
   background-size: cover;
@@ -204,9 +152,20 @@ div p {
 
 .work-grid-item.side.project-2 {
   background-image: url('../images/Pet-hotel.png');
+=======
+.work-grid-item.side.project-2:hover {
+  background-image: url('../images/run-buddy.png');
   background-size: cover;
 }
 
+.work-grid-item.side.project-3:hover {
+  background-image: url('../images/Workday-Scheduler.png');
+>>>>>>> develop
+  background-size: cover;
+  background-position: center;
+}
+
+<<<<<<< HEAD
 .work-grid-item.side.project-3 {
   background-image: url('../images/Workday-Scheduler.png');
   background-size: cover;
@@ -214,147 +173,29 @@ div p {
 
 .work-grid-item.bottom.project-4 {
   background-image: url('../images/Weed\ It\ &\ Reap.png');
+=======
+.work-grid-item.bottom.project-4:hover {
+  background-image: url('../images/Weed\ It\ &\ Reap.png');
   background-size: cover;
 }
 
+.work-grid-item.bottom.project-5:hover {
+  background-image: url('../images/CodeQuiz.png');
+>>>>>>> develop
+  background-size: cover;
+  background-position: center;
+}
+
+<<<<<<< HEAD
 .work-grid-item.bottom.project-5 {
   background-image: url('../images/CodeQuiz.png');
+=======
+.work-grid-item.bottom.project-6:hover {
+  background-image: url('../images/pet-hotel.png');
+>>>>>>> develop
   background-size: cover;
+  background-position: right;
 }
-
 /* Work Style End */
 
-/* Contact Me Style Start */
-.contact {
-  display: flex;
-  text-align: right;
-}
-
-.contact address {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100%;
-  border-left: 3px solid;
-  padding: 0 40px 20px 30px;
-}
-
-.contact address a {
-  margin: 10px;
-  padding: 5px;
-  border-bottom: 3px solid;
-  text-decoration: none;
-}
-
-/* Contact Me Style End */
-
 /* Media Queries */
-/* Media Query for Smaller Desktop Screens and Smaller */
-@media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  .work {
-    width: 100%;
-  }
-
-  .work-grid-item.side.calculator {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /* Media Query for Tablets and Smaller */
-  @media screen and (max-width: 768px) {
-    .work-grid-container {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .work-grid-item.project-1 {
-      grid-column: 1 / -1;
-    }
-
-    .work-grid-item.side {
-      grid-column: -2;
-    }
-
-    .work-grid-item.bottom {
-      grid-column: 1;
-      grid-row: 3;
-    }
-
-    .contact {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-
-  /* Media Query for Mobile Phones and Smaller */
-  @media screen and (max-width: 575px) {
-    body {
-      font-size: 15px;
-    }
-
-    .about-me-link {
-      font-size: 15px;
-    }
-
-    .work-link {
-      font-size: 15px;
-    }
-
-    .contact-me-link {
-      font-size: 15px;
-    }
-
-    .resume-link {
-      font-size: 15px;
-    }
-
-    .section-title {
-      margin: 0;
-      font-size: 20px;
-    }
-
-    .hero-text {
-      text-align: center;
-    }
-
-    div p {
-      margin: 5px;
-    }
-    .work-grid-container {
-      margin: 5px;
-    }
-
-    .contact {
-      margin: 5px;
-      padding: 5px;
-      justify-content: space-evenly;
-    }
-
-    .contact address {
-      padding: 1em;
-    }
-  }
-}
